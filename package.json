@@ -1,0 +1,13 @@
+{
+    "name": "spanner",
+    "version": "0.0.1",
+    "description": "Tool",
+
+    "author": "Andrey Chizh",
+    "license": "MIT",
+
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/andreychizh/node-spanner.git"
+    }
+}
