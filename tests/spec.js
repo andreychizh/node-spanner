@@ -64,6 +64,30 @@ describe('Spanner', function() {
             spanner.padDigits(10, 10).should.equal('0000000010');
         });
 
+        it('should return `100` when the value = 100 and set digit = 0', function() {
+            spanner.padDigits(100, 0).should.equal('100');
+        });
+
+        it('should return `100` when the value = 100 and set digit = 1', function() {
+            spanner.padDigits(100, 1).should.equal('100');
+        });
+
+        it('should return `100` when the value = 100 and set digit = 2', function() {
+            spanner.padDigits(100, 2).should.equal('100');
+        });
+
+        it('should return `100` when the value = 100 and set digit = 3', function() {
+            spanner.padDigits(100, 3).should.equal('100');
+        });
+
+        it('should return `0100` when the value = 100 and set digit = 4', function() {
+            spanner.padDigits(100, 4).should.equal('0100');
+        });
+
+        it('should return `0000000100` when the value = 100 and set digit = 10', function() {
+            spanner.padDigits(100, 10).should.equal('0000000100');
+        });
+
     });
 
 });
