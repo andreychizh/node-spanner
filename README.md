@@ -8,5 +8,6 @@ Pad a number with leading zeros
 
 ```js
 padDigits(4, 2)   // 04
+padDigits(99, 3)  // 099
 padDigits(123, 5) // 00123
 ```
