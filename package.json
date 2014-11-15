@@ -1,7 +1,7 @@
 {
     "name": "spanner",
-    "version": "0.0.1",
-    "description": "Tool",
+    "version": "0.1.2",
+    "description": "A collection of useful methods and helpers",
 
     "author": "Andrey Chizh",
     "license": "MIT",
@@ -16,7 +16,7 @@
         "url" : "https://github.com/andreychizh/node-spanner.git"
     },
 
-    "dependencies": {
+    "devDependencies": {
         "mocha": "*",
         "should": "*"
     }
