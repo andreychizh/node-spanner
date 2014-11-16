@@ -90,5 +90,16 @@ describe('Spanner', function() {
 
     });
 
+    describe('#matchUrl()', function() {
+
+        it('should match URL `/api/users/123` to pattern `/api/users/:id`', function () {
+            var opt = spanner.matchUrl('/api/users/123', '/api/users/:id');
+
+            opt.match.should.eql(true);
+            opt.params.should.eql({ id: '123' });
+            opt.query.should.eql({});
+        });
+    });
+
 });
 
