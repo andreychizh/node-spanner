@@ -1,4 +1,4 @@
-# Spanner [![Build Status](https://travis-ci.org/andreychizh/node-spanner.svg)](https://travis-ci.org/andreychizh/node-spanner)
+# Spanner [![Build Status](https://travis-ci.org/andreychizh/node-spanner.svg)](https://travis-ci.org/andreychizh/node-spanner) [![Dependency Status](https://www.versioneye.com/user/projects/547b914160944d61d10001b6/badge.svg)](https://www.versioneye.com/user/projects/547b914160944d61d10001b6)
 
 ## Methods
 
